@@ -23,8 +23,8 @@ Run R
 R
 ```
 
-Adding an Internet browser (important to be able to launch the Shiny application)
-Tester with `firefox` and `google-chrome`
+Adding an Internet browser (important to be able to launch the Shiny application). \
+Test with `firefox` and `google-chrome` options
 
 ```
 options(browser = "firefox")
