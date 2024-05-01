@@ -1,0 +1,43 @@
+---
+title: "LAGOON-MCL-Shiny-app"
+author: "Jérémy Rousseau"
+date: "2024-05-01"
+output: html_document
+---
+
+A shiny application to explore the results produced by LAGOON-MCL
+
+## Installing the app
+
+To use this application, you can use the conda environment `environment.yaml` which contains all the necessary libraries.
+
+```bash
+conda env create -f environment.yaml
+```
+
+## Using the app
+
+Run conda environment
+
+```bash
+conda activate lagoon-mcl-shiny-app
+```
+
+Run R
+
+```r
+R
+```
+
+Adding an Internet browser (important to be able to launch the Shiny application). \
+Test with `firefox` and `google-chrome` options
+
+```r
+options(browser = "firefox")
+```
+
+Run the R Shiny app
+
+```r
+shiny::runApp("app.R", launch.browser = TRUE)
+```
