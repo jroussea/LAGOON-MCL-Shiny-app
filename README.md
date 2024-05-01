@@ -6,8 +6,7 @@ A shiny application to explore the results produced by LAGOON-MCL
 To use this application, you can use the conda environment `environment.yaml` which contains all the necessary libraries.
 
 ```
-conda env create -f environment.yam
-
+conda env create -f environment.yaml
 ```
 
 ## Using the app
